@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TyphoonPreparationActivity">
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="420dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/redbutton" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="412dp"
+        android:layout_height="37dp"
+        android:fontFamily="@font/lato_bold"
+        android:paddingLeft="15dp"
+        android:text="Typhoon"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView25"
+        app:layout_constraintTop_toTopOf="@+id/imageView25" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="322dp"
+        android:layout_height="188dp"
+        android:layout_marginTop="32dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView25"
+        app:srcCompat="@mipmap/video_img_foreground" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="355dp"
+        android:layout_height="136dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/lato_regular"
+        android:text="Typhoons are extremely dangerous due to their powerful winds, which can cause widespread destruction to homes, infrastructure, and power lines. They bring heavy rainfall, leading to severe flooding and landslides, endangering lives and property. Storm surges from typhoons can also raise sea levels, causing coastal areas to flood rapidly. To stay safe, we will help you prepare by providing essential tips and resources for typhoon readiness."
+        android:textAlignment="textStart"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView26" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="348dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="268dp"
+        android:fontFamily="@font/lato_regular"
+        android:paddingLeft="20dp"
+        android:text="1. Prepare an Emergency Kit: Stock up on essentials like water, food, flashlights, batteries, first aid supplies, and important documents in waterproof bags."
+        android:textAlignment="textStart"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView26" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="348dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="512dp"
+        android:fontFamily="@font/lato_regular"
+        android:paddingLeft="20dp"
+        android:text="1. Stay Indoors: Keep away from windows and doors, and stay in the safest room of the house, such as an interior room or basement."
+        android:textAlignment="textStart"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView26" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="348dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="332dp"
+        android:fontFamily="@font/lato_regular"
+        android:paddingLeft="20dp"
+        android:text="2. Secure Your Home: Reinforce windows, doors, and the roof, and remove loose objects like outdoor furniture that could become projectiles."
+        android:textAlignment="textStart"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView26" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="348dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="400dp"
+        android:fontFamily="@font/lato_regular"
+        android:paddingLeft="20dp"
+        android:text="3. Stay Informed: Monitor weather reports regularly and follow local authorities' evacuation orders if needed."
+        android:textAlignment="textStart"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView26" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/lato_bold"
+        android:text="What should you do?"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/lato_bold"
+        android:text="Before the Typhoon:"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/lato_bold"
+        android:text="During the Typhoon:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView40"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

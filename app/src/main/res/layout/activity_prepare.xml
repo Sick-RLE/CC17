@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrepareActivity">
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="420dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/redbutton" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="412dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/lato_bold"
+        android:paddingLeft="15dp"
+        android:text="Prepare"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView24"
+        app:layout_constraintTop_toTopOf="@+id/imageView24" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="173dp"
+        android:layout_height="155dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="72dp"
+        android:scaleX="1.5"
+        android:scaleY="1.2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toEndOf="@+id/imageView28"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24"
+        app:srcCompat="@mipmap/prepare2_foreground" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="173dp"
+        android:layout_height="155dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="72dp"
+        android:scaleX="1.5"
+        android:scaleY="1.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24"
+        app:srcCompat="@mipmap/prepare1_foreground" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="173dp"
+        android:layout_height="155dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:scaleX="1.5"
+        android:scaleY="1.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView28"
+        app:srcCompat="@mipmap/prepare3_foreground" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="175dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="132dp"
+        android:background="@drawable/disasters_for_prepare"
+        android:fontFamily="@font/lato_bold"
+        android:text="Volcanic Eruption"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView30"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView30"
+        app:layout_constraintTop_toTopOf="@+id/imageView30" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="173dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="32dp"
+        android:scaleX="1.5"
+        android:scaleY="1.2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toEndOf="@+id/imageView30"
+        app:layout_constraintTop_toBottomOf="@+id/imageView29"
+        app:srcCompat="@mipmap/prepare4_foreground" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="173dp"
+        android:layout_height="155dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:scaleX="1.5"
+        android:scaleY="1.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView30"
+        app:srcCompat="@mipmap/prepare5_foreground" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="175dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="132dp"
+        android:background="@drawable/disasters_for_prepare"
+        android:fontFamily="@font/lato_bold"
+        android:text="Floods"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView31"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView31"
+        app:layout_constraintTop_toTopOf="@+id/imageView31" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="173dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="32dp"
+        android:scaleX="1.5"
+        android:scaleY="1.2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.644"
+        app:layout_constraintStart_toEndOf="@+id/imageView32"
+        app:layout_constraintTop_toBottomOf="@+id/imageView31"
+        app:srcCompat="@mipmap/prepare6_foreground" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="175dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="132dp"
+        android:background="@drawable/disasters_for_prepare"
+        android:fontFamily="@font/lato_bold"
+        android:text="Fire"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView32"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView32"
+        app:layout_constraintTop_toTopOf="@+id/imageView32" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="175dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="132dp"
+        android:background="@drawable/disasters_for_prepare"
+        android:fontFamily="@font/lato_bold"
+        android:text="Typhoon"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView33"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView33"
+        app:layout_constraintTop_toTopOf="@+id/imageView33" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="175dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="132dp"
+        android:background="@drawable/disasters_for_prepare"
+        android:fontFamily="@font/lato_bold"
+        android:text="Landslide"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView28"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView28"
+        app:layout_constraintTop_toTopOf="@+id/imageView28" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="175dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="132dp"
+        android:background="@drawable/disasters_for_prepare"
+        android:fontFamily="@font/lato_bold"
+        android:text="Earthquake"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView29"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView29"
+        app:layout_constraintTop_toTopOf="@+id/imageView29" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
